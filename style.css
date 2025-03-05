@@ -1,0 +1,37 @@
+body {
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    width: 50rem;
+    height: 20rem;
+    position: relative;
+}
+
+.svg-container {
+    z-index: 2;
+    position: absolute;
+}
+
+.lttr {
+    fill: #a5b9c7;
+}
+
+.sound {
+    position: fixed;
+    color: #a5b9c7;
+    font-size: 1.6rem;
+    bottom: 1rem;
+    right: 1rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sound--off {
+    text-decoration: line-through;
+}
